@@ -1,4 +1,7 @@
-# Vamos mudar um pouco nosso contexto para um sistema de vendas de uma cafeteria. Como podemos abstrair um pedido composto por vários itens? Quais as suas características e comportamentos?
+# Vamos mudar um pouco nosso contexto para um sistema de vendas de uma
+# cafeteria.
+# Como podemos abstrair um pedido composto por vários itens?
+# Quais as suas características e comportamentos?
 class Item:
     def __init__(self, nome, preco):
         self.nome = nome
